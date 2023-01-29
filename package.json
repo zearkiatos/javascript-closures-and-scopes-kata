@@ -1,0 +1,26 @@
+{
+  "name": "javascript-closures-and-scopes-kata",
+  "version": "1.0.0",
+  "description": "This is a javascript 🟨 project kata 🥋 to practice scopes and closures concepts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "global": "node src/scope/global.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zearkiatos/javascript-closures-and-scopes-kata.git"
+  },
+  "keywords": [
+    "Javacript",
+    "Closure",
+    "Scope",
+    "Kata"
+  ],
+  "author": "Pedro Capriles <caprilespe@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zearkiatos/javascript-closures-and-scopes-kata/issues"
+  },
+  "homepage": "https://github.com/zearkiatos/javascript-closures-and-scopes-kata#readme"
+}
