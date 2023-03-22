@@ -6,8 +6,7 @@ describe("Unit test suites for function scope", () => {
 
     functionScope.greeting();
 
-    console.log(consoleSpyOn.mock);
-
     expect(consoleSpyOn).toHaveBeenCalled();
+    expect(consoleSpyOn).toHaveBeenCalledWith(expectValue);
   });
 });
