@@ -1,8 +1,5 @@
 import sumWithClosure from "../../src/closure/sumWithClosure";
 describe("Unit test suite for sum with closure", () => {
-  beforeEach(() => {
-    jest.resetAllMocks();
-  });
   test("Should make a sum of two numbers with closure", () => {
     const expectedValue = 5;
     const firstValue = 2;
