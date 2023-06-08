@@ -1,9 +1,6 @@
-const sumWithClosure = (firstValue) => {
-  function sumTheSecondValue(secondValue = 0) {
-    return firstValue + secondValue;
-  }
-
-  return sumTheSecondValue;
-};
+const sumWithClosure =
+  (firstValue) =>
+  (secondValue = 0) =>
+    firstValue + secondValue;
 
 export default sumWithClosure;
