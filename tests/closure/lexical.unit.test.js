@@ -1,8 +1,5 @@
 import lexical from "../../src/closure/lexical";
 describe("Unit test suite for lexical closure", () => {
-  beforeEach(() => {
-    jest.resetAllMocks();
-  });
   test("Should show the lexical variable", () => {
     const expectedGlobal = 0;
     const expectedNumber = 1;
