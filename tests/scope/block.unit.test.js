@@ -2,7 +2,7 @@ import block from "../../src/scope/block";
 describe("Unit test suites for block", () => {
   beforeEach(() => {
     jest.resetAllMocks();
-  })
+  });
   test("Should execute an get an error throw because of the incorrect block scope", () => {
     const expectedApple = "🍎";
     const expectedError = "kiwi is not defined";
